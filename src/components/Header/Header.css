@@ -1,0 +1,45 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background: var(--foreground-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 25px;
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  cursor: default;
+  /* opacity: 0;
+  animation: slideRight 1s ease forwards; */
+}
+
+.navbar a {
+  display: inline-block;
+  color: var(--primary-text-color);
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  /* transition: .3s;
+  opacity: 0;
+  animation: slideTop .5s ease forwards;
+  animation-delay: calc(.2s * var(--i)); */
+}
+
+a.navbarHome {
+  color: #8b3295;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: #8b3295;
+}
+
