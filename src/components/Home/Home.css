@@ -35,3 +35,17 @@
   border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
+
+.home-content .btn {
+  width: 35%;
+  display: inline-block;
+  padding: 12px 28px;
+  background: #8b3295;
+  color: #ffb6c1;
+  border-radius: 40px;
+  box-shadow: 0 0 10px #8b3295;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 25px;
+}
