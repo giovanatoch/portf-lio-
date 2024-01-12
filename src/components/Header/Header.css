@@ -35,7 +35,7 @@
 }
 
 a.navbarHome {
-  color: #8b3295;
+  color: var(--color-home);
 }
 
 .navbar a:hover,

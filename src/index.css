@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
-  --body-background: #ffb6c1;
-  --foreground-color: #ffb1bd;
-  --primary-text-color: #fff;
-  --secondary-text-color: #000;
+  --body-background: #F7BA79;
+  --foreground-color: #F59B65;
+  --primary-text-color: #FFF;
+  --color-home: #C5211C;
 }
 
-[dark-theme="dark"] {
-  --body-background: #380745;
-  --foreground-color: #8c10af;
+[data-theme="dark"] {
+  --body-background: #313866;
+  --foreground-color: #50409A;
   --primary-text-color: #fff;
-  --secondary-text-color: #000;
+  --color-home: #262323;
+}
+
+body {
+  background-color: var(--body-background);
 }
 
 
