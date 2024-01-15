@@ -1,4 +1,5 @@
 import React from 'react';
+import DarkMode from '../DarkMode/DarkMode';
 
 import './Header.css';
 
@@ -12,6 +13,7 @@ function Header() {
         <a>Sobre</a>
         <a>Projetos</a>
         <a>Skills</a>
+        <DarkMode />
       </nav>
       
     </header>

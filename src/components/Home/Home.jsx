@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Logo from './home.png';
 import './Home.css';
 
 function Home() {
@@ -12,7 +13,7 @@ function Home() {
         <a href="curriculo/giovana_nascimento.pdf" download="Giovana Tochtrop" className="btn">Download CV</a>
       </div>
       <div className="home-img">
-        a
+        <img src={Logo} alt=""/>
       </div>
     </div>
   );

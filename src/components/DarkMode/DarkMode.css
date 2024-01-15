@@ -3,8 +3,7 @@
   z-index: 9999;
   display: flex;
   justify-content: flex-end;
-  margin-top: 25px;
-  margin-right: 40px;
+  margin-left: 35px;
 }
 
 .dark_mode_label {

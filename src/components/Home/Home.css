@@ -26,7 +26,7 @@
 }
 
 .home-content h3 span {
-  color: #8b3295;
+  color: var(--color-home);
 }
 
 
@@ -40,10 +40,10 @@
   width: 35%;
   display: inline-block;
   padding: 12px 28px;
-  background: #8b3295;
-  color: #ffb6c1;
+  background: var(--color-home);
+  color: #ffffff;
   border-radius: 40px;
-  box-shadow: 0 0 10px #8b3295;
+  box-shadow: 0 0 10px var(--color-home);
   text-decoration: none;
   font-size: 20px;
   font-weight: 600;

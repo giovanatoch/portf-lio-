@@ -21,6 +21,10 @@
   animation: slideRight 1s ease forwards; */
 }
 
+.navbar {
+  display: flex;
+}
+
 .navbar a {
   display: inline-block;
   color: var(--primary-text-color);
