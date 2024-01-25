@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px 10%;
+  padding: 1.25rem 10%;
   background: var(--foreground-color);
   display: flex;
   justify-content: space-between;
@@ -12,7 +12,7 @@
 }
 
 .logo {
-  font-size: 25px;
+  font-size: 1.5rem;
   color: var(--primary-text-color);
   text-decoration: none;
   font-weight: 500;
@@ -32,6 +32,7 @@
   text-decoration: none;
   font-weight: 500;
   margin-left: 35px;
+  cursor: pointer;
   /* transition: .3s;
   opacity: 0;
   animation: slideTop .5s ease forwards;
