@@ -8,10 +8,10 @@
 }
 
 [data-theme="dark"] {
-  --body-background: #313866;
-  --foreground-color: #50409A;
+  --body-background: #217181;
+  --foreground-color: #154b56;
   --primary-text-color: #fff;
-  --color-home: #262323;
+  --color-home: #23879A;
 }
 
 body {
